@@ -1,5 +1,5 @@
 
-currDir=$(pwd)
+currDir="/home/nishant/Desktop/CronJob_MLRetrainExploration"
 dataFileName="${currDir}/iris.csv"
 echo ${dataFileName}
 if [ -e ${dataFileName} ]
