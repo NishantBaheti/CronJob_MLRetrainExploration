@@ -10,7 +10,8 @@ import os
 import time
 
 
-currWd = os.getcwd()
+#currWd = os.getcwd()
+currWd = '/home/nishant/Desktop/CronJob_MLRetrainExploration'
 ##########################################################
 ###### Importing data
 df = pd.read_csv("{}/iris.csv".format(currWd))
